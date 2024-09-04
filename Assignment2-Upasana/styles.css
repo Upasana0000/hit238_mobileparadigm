@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    
+}
+ h2 {
+    font-size: 2rem; /* Slightly smaller than h1 for hierarchy */
+    color: #ffffff; /* White text color */
+    text-align: center; /* Center the text */
+    letter-spacing: 2px; /* Space between letters */
+    text-transform: uppercase; /* Uppercase text for emphasis */
+    margin-top: 10px; /* Adds space between h1 and h2 */
+    margin-bottom: 10px; /* Space below h2 */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    background-color: #24675c; /* Darker background to differentiate from h1 */
+    padding: 1px 0; /* Adds padding to create space inside the h2 */
+    border-radius: 8px; /* Rounds the corners of the h2 background */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect for elevation */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for h2 */
+ h2:hover {
+    background-color: #00796b; /* Lighten the background on hover */
+    transform: scale(1.03); /* Slightly enlarge the h2 on hover */
+}
+p{margin: 0;
+font-size: 1.5rem;}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #f9a825;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for effect */
+    margin-top: auto; /* Push the footer to the bottom of the page */
+}
+
+/* Hidden Element for Success Message */
+.hidden {
+    display: none;
+}
+.section-image {
+    width: 100%; /* Ensures the image is responsive and scales to fit its container */
+    max-width: 600px; /* Limits the image size on larger screens */
+    height: auto; /* Maintains the aspect ratio of the image */
+    margin: 20px auto; /* Adds spacing around the image and centers it horizontally */
+    border-radius: 10px; /* Rounds the corners of the image for a softer look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow to give the image depth */
+    display: block; /* Ensures that the image takes up its own line */
+    transition: transform 0.3s ease; /* Adds a smooth transition effect for hover state */
+}
+
+/* Hover effect for images */
+.section-image:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Increases shadow effect on hover */
+}
+
+
